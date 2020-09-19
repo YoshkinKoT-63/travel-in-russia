@@ -1,0 +1,15 @@
+.content-title_margin {
+  margin: 0 auto 30px auto;
+}
+
+@media screen and (max-width: 848px) {
+  .content-title_margin {
+    margin: 0 auto 22px auto;
+    }
+}
+
+@media screen and (max-width: 580px) {
+  .content-title_margin {
+    margin: 0 auto 16px auto;
+    }
+}

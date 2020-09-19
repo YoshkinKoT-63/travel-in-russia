@@ -1,0 +1,26 @@
+.footer__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: min-content min-content min-content min-content min-content;
+  grid-column-gap: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer__links {
+    grid-template-columns: min-content;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__links {
+    grid-row-gap: 1em;
+  }
+}

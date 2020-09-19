@@ -1,0 +1,40 @@
+.places__place {
+  max-width: 984px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 51px;
+  margin: 0 auto 82px auto;
+  position: relative;
+}
+
+
+@media screen and (max-width: 1040px) {
+  .places__place {
+    grid-column-gap: 32px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .places__place {
+    grid-column-gap: 28px;
+    grid-row-gap: 40px;
+    margin-bottom: 58px;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    margin: 0 auto 48px auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .places__place {
+    grid-row-gap: 28px;
+  }
+}

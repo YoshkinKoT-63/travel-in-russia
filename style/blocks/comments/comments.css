@@ -1,0 +1,31 @@
+@import url('./__container/comments__container.css');
+@import url('./__image/comments__image.css');
+@import url('./__quote/comments__quote.css');
+@import url('./__author/comments__author.css');
+@import url('./_margin/comments_margin.css');
+@import url('./__comment/comments__comment.css');
+
+.comments {
+  font-family: Inter, Verdana, Arial, sans-serif;
+  max-width: 1184px;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .comments {
+    width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 780px) {
+  .comments {
+    width: calc(100% - 108px);
+    }
+}
+
+@media screen and (max-width: 460px) {
+  .comments {
+    width: calc(100% - 36px);
+    }
+}

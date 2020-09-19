@@ -1,0 +1,21 @@
+.cover_margin {
+  margin: 0 auto 160px auto;
+}
+
+@media screen and (max-width: 980px) {
+  .cover_margin {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover_margin {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover_margin {
+    margin-bottom: 50px;
+  }
+}

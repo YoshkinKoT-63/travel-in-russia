@@ -1,0 +1,33 @@
+@import url('./blocks/russia-travel/russia-travel.css');
+@import url('./blocks/page/page.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/places/places.css');
+@import url('./blocks/video/video.css');
+@import url('./blocks/content-subtitle/content-subtitle.css');
+@import url('./blocks/content-title/content-title.css');
+@import url('./blocks/video/video.css');
+@import url('./blocks/comments/comments.css');
+@import url('./blocks/cover/cover.css');
+@import url('./blocks/footer/footer.css');
+
+
+
+@font-face {
+  src: url('../fonts/Inter-Light.woff') format('woff'),
+      url('../fonts/Inter-Light.woff2') format('woff2'),
+      url('../fonts/Inter-Light.otf') format('opentype');
+  font-family: 'Inter';
+  font-weight: normal;
+}
+
+
+@font-face {
+  src: url('../fonts/Inter-ExtraBold.woff') format('woff'),
+      url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+      url('../fonts/Inter-ExtraBold.otf') format('opentype');
+	font-family: 'Inter';
+  font-weight: bold;
+}

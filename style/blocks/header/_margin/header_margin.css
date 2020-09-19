@@ -1,0 +1,9 @@
+.header_margin {
+  margin: 0 auto 62px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header_margin {
+    margin-bottom: 52px;
+  }
+}

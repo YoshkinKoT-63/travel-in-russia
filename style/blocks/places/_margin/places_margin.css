@@ -1,0 +1,22 @@
+.places_margin {
+  position: relative;
+  margin: 0 auto 110px auto;
+}
+
+@media screen and (max-width: 1080px) {
+  .places_margin {
+    margin-bottom: 108px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .places_margin {
+    margin-bottom: 98px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .places_margin {
+    margin-bottom: 52px;
+  }
+}

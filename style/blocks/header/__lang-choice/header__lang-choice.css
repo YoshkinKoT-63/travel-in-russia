@@ -1,0 +1,25 @@
+@import url('./_style-reset/header__lang-choice_style-reset.css');
+@import url('./_active/header__lang-choice_active.css');
+
+
+.header__lang-choice {
+  margin: 0 9px;
+  width: calc(100%/2 - 18px);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  transition: opacity .5s linear;
+}
+
+.header__lang-choice:hover {
+  opacity: .7;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-choice {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}
